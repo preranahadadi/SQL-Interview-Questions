@@ -2,7 +2,7 @@
 
 This repository contains **SQL interview problems from LeetCode and DataLemur** organized by **core SQL patterns**.
 
-Organizing by patterns helps quickly recognize the correct approach during interviews.
+Organizing problems by patterns helps quickly recognize the correct approach during interviews.
 
 ---
 
@@ -69,6 +69,8 @@ ON a.id = b.id;
 | Cities With Completed Trades | DataLemur | https://datalemur.com/questions/completed-trades |
 | Average Review Ratings | DataLemur | https://datalemur.com/questions/sql-average-review-ratings |
 | Teams Power Users | DataLemur | https://datalemur.com/questions/teams-power-users |
+| Compressed Mean | DataLemur | https://datalemur.com/questions/compressed-mean |
+| Cards Issued Difference | DataLemur | https://datalemur.com/questions/cards-issued-difference |
 
 Typical pattern
 
@@ -90,6 +92,10 @@ GROUP BY column;
 | App Click-through Rate (CTR) | DataLemur | https://datalemur.com/questions/click-through-rate |
 | Laptop vs Mobile Viewership | DataLemur | https://datalemur.com/questions/laptop-mobile-viewership |
 | Final Account Balance | DataLemur | https://datalemur.com/questions/final-account-balance |
+| Pharmacy Analytics (Part 1) | DataLemur | https://datalemur.com/questions/pharmacy-analytics-part-1 |
+| Pharmacy Analytics (Part 2) | DataLemur | https://datalemur.com/questions/pharmacy-analytics-part-2 |
+| Pharmacy Analytics (Part 3) | DataLemur | https://datalemur.com/questions/pharmacy-analytics-part-3 |
+| Patient Support Analysis (Part 1) | DataLemur | https://datalemur.com/questions/patient-support-analysis-part-1 |
 
 Typical pattern
 
@@ -129,7 +135,8 @@ Typical pattern
 SELECT *
 FROM table
 WHERE column IN (
-    SELECT column FROM table
+    SELECT column
+    FROM table
 );
 ```
 
@@ -143,6 +150,8 @@ WHERE column IN (
 | Restaurant Growth | LeetCode | https://leetcode.com/problems/restaurant-growth/ |
 | Friend Requests II: Who Has the Most Friends | LeetCode | https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/ |
 | Department Top Three Salaries | LeetCode | https://leetcode.com/problems/department-top-three-salaries/ |
+| User's Third Transaction | DataLemur | https://datalemur.com/questions/users-third-transaction |
+| Second Day Confirmation | DataLemur | https://datalemur.com/questions/second-day-confirmation |
 
 Typical pattern
 
@@ -178,6 +187,8 @@ DATEDIFF(date1, date2)
 | Investments in 2016 | LeetCode | https://leetcode.com/problems/investments-in-2016/ |
 | Group Sold Products By The Date | LeetCode | https://leetcode.com/problems/group-sold-products-by-the-date/ |
 | List the Products Ordered in a Period | LeetCode | https://leetcode.com/problems/list-the-products-ordered-in-a-period/ |
+| IBM db2 Product Analytics | DataLemur | https://datalemur.com/questions/ibm-db2-product-analytics |
+| QuickBooks vs TurboTax | DataLemur | https://datalemur.com/questions/quickbooks-vs-turbotax |
 
 ---
 
