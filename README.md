@@ -2,8 +2,6 @@
 
 This repository contains **SQL interview problems from LeetCode and DataLemur** organized by **core SQL patterns**.
 
-Organizing problems by patterns helps quickly recognize the correct approach during interviews.
-
 ---
 
 # 1. Basic SELECT + Filtering
