@@ -42,6 +42,8 @@ WHERE condition;
 | Students and Examinations | LeetCode | https://leetcode.com/problems/students-and-examinations/ |
 | Well Paid Employees | DataLemur | https://datalemur.com/questions/well-paid-employees |
 | Page With No Likes | DataLemur | https://datalemur.com/questions/sql-page-with-no-likes |
+| Booking Referral Source | Airbnb | https://datalemur.com/questions/booking-referral-source |
+| Supercloud Customer | Microsoft | https://datalemur.com/questions/supercloud-customer |
 
 Typical pattern
 
@@ -71,6 +73,10 @@ ON a.id = b.id;
 | Teams Power Users | DataLemur | https://datalemur.com/questions/teams-power-users |
 | Compressed Mean | DataLemur | https://datalemur.com/questions/compressed-mean |
 | Cards Issued Difference | DataLemur | https://datalemur.com/questions/cards-issued-difference |
+| Best-Selling Product | Amazon | https://datalemur.com/questions/best-selling-product |
+| Histogram of Users and Purchases | Walmart | https://datalemur.com/questions/histogram-users-purchases |
+| International Call Percentage | Verizon | https://datalemur.com/questions/international-call-percentage |
+| Card Launch Success | JPMorgan | https://datalemur.com/questions/card-launch-success |
 
 Typical pattern
 
@@ -96,6 +102,7 @@ GROUP BY column;
 | Pharmacy Analytics (Part 2) | DataLemur | https://datalemur.com/questions/pharmacy-analytics-part-2 |
 | Pharmacy Analytics (Part 3) | DataLemur | https://datalemur.com/questions/pharmacy-analytics-part-3 |
 | Patient Support Analysis (Part 1) | DataLemur | https://datalemur.com/questions/patient-support-analysis-part-1 |
+| Patient Support Analysis (Part 2) | UnitedHealth | https://datalemur.com/questions/patient-support-analysis-part-2 |
 
 Typical pattern
 
@@ -148,10 +155,12 @@ WHERE column IN (
 |------|------|------|
 | Game Play Analysis IV | LeetCode | https://leetcode.com/problems/game-play-analysis-iv/ |
 | Restaurant Growth | LeetCode | https://leetcode.com/problems/restaurant-growth/ |
-| Friend Requests II: Who Has the Most Friends | LeetCode | https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/ |
+| Friend Requests II | LeetCode | https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/ |
 | Department Top Three Salaries | LeetCode | https://leetcode.com/problems/department-top-three-salaries/ |
 | User's Third Transaction | DataLemur | https://datalemur.com/questions/users-third-transaction |
 | Second Day Confirmation | DataLemur | https://datalemur.com/questions/second-day-confirmation |
+| User Shopping Sprees | Amazon | https://datalemur.com/questions/user-shopping-sprees |
+| 2nd Ride Delay | Uber | https://datalemur.com/questions/second-ride-delay |
 
 Typical pattern
 
@@ -167,6 +176,7 @@ ROW_NUMBER() OVER (PARTITION BY column ORDER BY column)
 |------|------|------|
 | Product Price at a Given Date | LeetCode | https://leetcode.com/problems/product-price-at-a-given-date/ |
 | Average Post Hiatus | DataLemur | https://datalemur.com/questions/sql-average-post-hiatus |
+| Odd and Even Measurements | Google | https://datalemur.com/questions/odd-even-measurements |
 
 Typical pattern
 
@@ -189,23 +199,23 @@ DATEDIFF(date1, date2)
 | List the Products Ordered in a Period | LeetCode | https://leetcode.com/problems/list-the-products-ordered-in-a-period/ |
 | IBM db2 Product Analytics | DataLemur | https://datalemur.com/questions/ibm-db2-product-analytics |
 | QuickBooks vs TurboTax | DataLemur | https://datalemur.com/questions/quickbooks-vs-turbotax |
+| Swapped Food Delivery | Zomato | https://datalemur.com/questions/swapped-food-delivery |
+| Compressed Mode | Alibaba | https://datalemur.com/questions/compressed-mode |
+| FAANG Stock Min-Max (Part 1) | Bloomberg | https://datalemur.com/questions/faang-stock-min-max |
+| Google Maps Flagged UGC | Google | https://datalemur.com/questions/google-maps-flagged-ugc |
 
 ---
 
 # Core SQL Interview Patterns
 
-Most SQL interview questions fall into these categories:
-
-```
-1. Basic Filtering (WHERE)
-2. Joins
-3. Aggregation (GROUP BY)
-4. Conditional Aggregation
-5. Duplicate Detection
-6. Subqueries
-7. Window Functions
-8. Date / Time Problems
-9. Data Transformation
-```
+1. Basic Filtering (WHERE)  
+2. Joins  
+3. Aggregation (GROUP BY)  
+4. Conditional Aggregation  
+5. Duplicate Detection  
+6. Subqueries  
+7. Window Functions  
+8. Date / Time Problems  
+9. Data Transformation  
 
 Mastering these patterns solves **80–90% of SQL interview questions**.
